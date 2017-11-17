@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="GUIModule" />
+        <module name="LogicModule" />
+        <module name="MainModule" />
+        <module name="sudoku" />
+        <module name="ThirdModule" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="GUIModule" target="1.5" />
+      <module name="LogicModule" target="1.5" />
+      <module name="MainModule" target="1.5" />
+      <module name="Sudoku" target="1.5" />
+      <module name="sudoku" target="1.5" />
+      <module name="ThirdModule" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
