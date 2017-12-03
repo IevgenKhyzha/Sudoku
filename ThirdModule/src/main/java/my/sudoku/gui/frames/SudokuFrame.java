@@ -1,6 +1,6 @@
 package my.sudoku.gui.frames;
 
-import listeners.*;
+import my.sudoku.gui.listeners.*;
 
 import javax.swing.*;
 import java.awt.*;

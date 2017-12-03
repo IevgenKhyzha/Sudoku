@@ -1,8 +1,6 @@
 package my.sudoku.logic;
 
 
-import my.sudoku.logic.squares.Square1;
-
 import javax.swing.*;
 
 /**
@@ -10,11 +8,10 @@ import javax.swing.*;
  */
 public class LogicMain {
 
-    public void setActualValues(JButton[][] matrixButtonCells, Square square){
-        Cell[][] cell = square.getSquare();
+    public void setActualValues(JButton[][] matrixButtonCells, Cell[][] cells){
         for  (int i = 0; i < 6; i++) {
             for (int j = 0; j < 6; j++) {
-                Cell actualCell = cell[i][j];
+                Cell actualCell = cells[i][j];
                 if (actualCell.getIsVisible()) {
                     matrixButtonCells[i][j].setText(String.valueOf(actualCell.getValue()));
                 }

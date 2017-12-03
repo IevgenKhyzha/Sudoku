@@ -1,4 +1,4 @@
-package listeners;
+package my.sudoku.gui.listeners;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

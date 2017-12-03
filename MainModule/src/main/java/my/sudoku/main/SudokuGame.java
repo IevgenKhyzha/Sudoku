@@ -13,15 +13,12 @@ public class SudokuGame {
 
         LogicMain logicMain = new LogicMain();
         final SudokuFrame sudokuFrame = new SudokuFrame();
-        logicMain.setActualValues(sudokuFrame.matrixButtonCells, new Square1());
+        logicMain.setActualValues(sudokuFrame.matrixButtonCells, new Square1().getSquare());
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 sudokuFrame.createGameFrame();
             }
         });
-
-
-
     }
 }
