@@ -20,18 +20,16 @@ public class SudokuFrame extends JFrame {
 //        setLayout(new BorderLayout());
 
 
-        panel1.setLocation(0, 0);
         panel1.setSize(500, 500);
         panel1.setVisible(true);
         panel1.setLayout(new GridLayout(6, 6));
 // TODO: done panel 2 homework
-        panel2.setLocation(500, 0);
         panel2.setVisible(true);
         panel2.setLayout(new GridLayout(3, 3));
         panel2.setSize(500, 500);
 
         JPanel mainPanel = new JPanel();
-        mainPanel.setLayout(new BorderLayout());
+        mainPanel.setLayout(new GridLayout());
         mainPanel.add(panel1);
         mainPanel.add(panel2);
 
